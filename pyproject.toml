@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "learn-py-iceberg"
+version = "0.1.0"
+description = ""
+authors = ["Pavlo Rytikov <pavel.ritikov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pyiceberg = "^0.8.1"
+pyarrow = "^18.1.0"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
